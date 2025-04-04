@@ -1,0 +1,40 @@
+ol {
+  margin-left: -40px;
+  margin-top: -20px;
+  list-style-position: inside;
+}
+p{
+  color:red;
+}
+.note{ /* This is a class selector */
+  size: 20px;
+}
+#id-selector-demo{ /* This is an ID selector */
+  color:green;
+}
+li[value="4"]{ /* This is an attribute selector */
+  color:blue;
+}
+*{ /* This is a universal selector */
+  text-align: center;
+}
+/*
+p.note{ /* This is a class selector combined with an element selector 
+  color:purple;
+}
+p.note#id-selector-demo{ /* This is a class selector and an ID selector combined with an element selector 
+  color:orange;
+}
+p.note#id-selector-demo li[value="4"]{ /* This is a class selector, an ID selector, an attribute selector, and an element selector combined 
+  color:yellow;
+}
+p.note#id-selector-demo li[value="4"] ol{ /* This is a class selector, an ID selector, an attribute selector, an element selector, and a descendant selector combined 
+  color:gray;
+}
+p.note#id-selector-demo li[value="4"] ol li{ /* This is a class selector, an ID selector, an attribute selector, an element selector, a descendant selector, and a descendant selector combined 
+  color:brown;
+}
+p.note#id-selector-demo li[value="4"] ol li ol{ /* This is a class selector, an ID selector, an attribute selector, an element selector, a descendant selector, a descendant selector, and a descendant selector combined 
+  color:teal;
+}/*
+/* Write your CSS below, don't change the rules above. */
