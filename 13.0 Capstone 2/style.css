@@ -1,0 +1,13 @@
+#DevSelf{
+    display: inline-block;
+}
+#DevSelf > img{
+    padding: 30px;
+    background-color: lightgray;
+    width: 30%;
+    float:left;
+    margin-right: 10px;
+}
+#DevSelfTxt{
+    background-color: lightgray;
+}
